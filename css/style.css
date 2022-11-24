@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Fonts */
+h1 {
+  color: #ACDE78;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  /* 16px = 100% = 1em */
+  line-height: 2px;
+  margin: 125px auto 0 auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  /* challenge : 40px/16 = 2.5 + rem; */
+  font-weight: normal;
+  margin-top: 1rem;
+}
+
+h3 {
+  color: #ACDE78;
+}
+
+h4 {
+  font-family: 'Patrick Hand', cursive;
+}
+
+/* Section 01 */
+.top-container {
+  background-color: #F0EFEF;
+  padding-top: 50px;
+  /*height: 200px;
+  width: 200px;
+
+  border:solid 10px;
+  padding: 20px; */
+}
+
+.top-cloud {
+  position: relative;
+  left: 225px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.mountain {
+  padding-top: 5%;
+}
+
+/*  LINE DESIGN */
+hr {
+  border-style: dotted none none;
+  border-width: 8px;
+  border-color: #EAF6F6;
+  width: 5%;
+}
+
+/* SECTION 02 */
+.skill-row {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.programmer-code {
+  width: 45%;
+  float: left;
+  margin-right: 10px;
+}
+
+.tools-code {
+  float: right;
+  margin-left: 10px;
+  width: 45%;
+}
+
+.icon-Img {
+  height: 32px;
+  width: 32px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.profileImg {
+  width: 300px;
+}
+
+.btn {
+  background-color: #ACDE78;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  box-shadow: 10px 5px 5px #ACDE78;
+}
+
+/* FOOTER */
+.bottom-container {
+  background-color: #8AB260;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.footer-link {
+  color: #3E7543;
+}
+
+.footer-Asign {
+  color: white;
+}
